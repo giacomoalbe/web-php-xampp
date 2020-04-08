@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <form action="inserisci_utente.php">
+    <div>
+      <label for="nome">Nome</label>
+      <input required type="text" id="nome" name="nome">
+    </div>
+    <div>
+      <label for="cognome">Cognome</label>
+      <input required type="text" id="cognome" name="cognome">
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input required type="email" id="email" name="email">
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input required type="password" id="password" name="password">
+    </div>
+    <div>
+      <label for="data_nascita">Data di Nascita</label>
+      <input required type="date" id="data_nascita" name="data_nascita">
+    </div>
+    <div>
+      <label for="corso_laurea">Corso di Laurea</label>
+      <select required name="corso_laurea" id="corso_laurea">
+        <option value="ing_mat">
+          Ingegneria Materiali
+        </option>
+        <option value="ing_ele">
+          Ingegneria Elettronica
+        </option>
+        <option value="let_ant">
+          Lettere Antiche
+        </option>
+      </select>
+    </div>
+    <div>
+      <label for="anno_corso">Anno di Corso</label>
+      1<input required type="radio" name="anno_corso" value="1" checked>
+      2<input required type="radio" name="anno_corso" value="2">
+      3<input required type="radio" name="anno_corso" value="3">
+    </div>
+    <div>
+      <input type="submit" value="Crea Utente">
+    </div>
+  </form>
+</body>
+</html>
