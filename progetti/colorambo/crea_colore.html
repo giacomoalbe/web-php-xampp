@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <div>
+    <h1>Crea Colore</h1>
+    <form action="crea_colore.php" method="POST">
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome">
+      </div>
+      <div>
+        <label for="r">Componente Rossa</label>
+        <input id="r" type="range" min="0" max="255" name="r">
+      </div>
+      <div>
+        <label for="g">Componente Verde</label>
+        <input id="g" type="range" min="0" max="255" name="g">
+      </div>
+      <div>
+        <label for="b">Componente Blu</label>
+        <input id="b" type="range" min="0" max="255" name="b">
+      </div>
+      <div>
+        <label for="pubblico">Rendi Pubblico</label>
+        <input id="pubblico" type="checkbox" name="pubblico">
+      </div>
+      <div>
+        <input type="submit" value="Crea">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
